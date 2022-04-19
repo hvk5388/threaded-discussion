@@ -283,14 +283,15 @@ export class maincard extends SimpleColors {
     } return html`
       ${this.getComment({user_uid: "jim1234", likes: 69420, body: "Does I works?"}, "b")}
     
-      <div>
-        ${this.displayItems.map(
-          item => html`
-          ${this.getComment(item)}
-          `
-        )}
-      </div>
-    `;
+      `;
+      // <div>
+      //   ${this.displayItems.map(
+      //     item => html`
+      //     ${this.getComment(item)}
+      //     `
+      //   )}
+      // </div>
+
     
   }
 
